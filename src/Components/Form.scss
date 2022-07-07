@@ -1,0 +1,136 @@
+$color-1: linear-gradient(90deg, #a626d3 1.18%, #672280 100%);
+$color-2: #ffffff;
+$color-3: #f0f7ee;
+$color-4: #050609;
+$color-5: #a626d3;
+
+$mobile: 576px;
+$tablet: 768px;
+$laptop: 992px;
+$desktop: 1200px;
+
+.body {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@media screen and (max-width: $desktop) {
+}
+
+@media screen and (max-width: $laptop) {
+}
+
+@media screen and (max-width: $tablet) {
+}
+
+@media screen and (max-width: $mobile) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    padding: 20px;
+    gap: 3em;
+  }
+
+  .fieldset {
+    position: relative;
+  }
+
+  .legend {
+    background: $color-4;
+    padding: 1.3em;
+    position: absolute;
+    top: 6em;
+    left: 1.5em;
+    border-radius: 1em;
+  }
+
+  .legend-1 {
+    color: $color-3;
+  }
+
+  .legend-2 {
+    color: $color-5;
+    font-size: 1.8em;
+  }
+
+  .meme-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .input {
+    display: flex;
+    gap: 10px;
+  }
+
+  .setup {
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid $color-5;
+  }
+
+  .btn {
+    height: 40px;
+    margin-top: 1em;
+    background: $color-1;
+    border-radius: 10px;
+    padding: 10px;
+    color: $color-2;
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: -0.1em;
+    transition: transform 500ms;
+  }
+
+  .btn:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+
+  .my-image {
+    max-height: 700px;
+    max-width: 550px;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  .meme-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .top-text {
+    position: absolute;
+    bottom: 20em;
+    left: 15em;
+    background-color: $color-2;
+    padding: 1em;
+    border-radius: 20px;
+  }
+
+  .bottom-text {
+    position: absolute;
+    bottom: 2em;
+    left: 15em;
+    background-color: $color-2;
+    padding: 1em;
+    border-radius: 20px;
+  }
+}

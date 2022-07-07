@@ -1,0 +1,61 @@
+.body {
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  .nav {
+    height: 65px;
+    background: -webkit-gradient(linear, left top, right top, color-stop(1.18%, #672280), to(#a626d3));
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: 1px 1px 1px #2b7f8b;
+            box-shadow: 1px 1px 1px #2b7f8b;
+    position: static;
+    top: 0;
+    width: 100vw;
+  }
+  .nav-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .meme-logo {
+    height: 60px;
+    border-radius: 10px;
+    padding: 08px;
+  }
+  .meme-title {
+    color: #ffffff;
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+  }
+  .nav-right .description {
+    padding: 5px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #ffffff;
+  }
+}
+/*# sourceMappingURL=NavBar.css.map */

@@ -1,0 +1,73 @@
+$color-1: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+$color-2: #ffffff;
+$color-3: #f0f7ee;
+$color-4: #2b7f8b;
+
+$mobile: 576px;
+$tablet: 768px;
+$laptop: 992px;
+$desktop: 1200px;
+
+.body {
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@media screen and (max-width: $desktop) {
+}
+
+@media screen and (max-width: $laptop) {
+}
+
+@media screen and (max-width: $tablet) {
+}
+
+@media screen and (max-width: $mobile) {
+  .nav {
+    height: 65px;
+    background: $color-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 1px $color-4;
+    position: static;
+    top: 0;
+    width: 100vw;
+  }
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .meme-logo {
+    height: 60px;
+    border-radius: 10px;
+    padding: 08px;
+  }
+
+  .meme-title {
+    color: $color-2;
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+  }
+
+  .nav-right {
+    .description {
+      padding: 5px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: right;
+      color: $color-2;
+    }
+  }
+}

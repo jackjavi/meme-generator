@@ -1,0 +1,16 @@
+.body {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    background-color: #050609;
+    width: 100vw;
+    height: 14em;
+    -webkit-box-shadow: -1px -1px 1px #2b7f8b;
+            box-shadow: -1px -1px 1px #2b7f8b;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */
